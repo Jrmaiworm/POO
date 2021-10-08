@@ -9,7 +9,6 @@ public class Principal {
 		
 		
 		
-		
 		usuario.depositar(20000);
 		usuario.sacar(10000);
 		
