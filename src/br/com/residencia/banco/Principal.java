@@ -5,7 +5,7 @@ public class Principal {
 	public static void main(String[] args) {
 
 		
-		Conta usuario = new Conta("Jorge",112,1000,"2215",24224356);
+		Conta usuario = new Conta("Jorge",112,1000,"2215",242243564);
 		
 		
 		
@@ -13,7 +13,7 @@ public class Principal {
 		usuario.depositar(20000);
 		usuario.sacar(10000);
 		
-		Conta destinatario = new Conta("Jose",113,10000,"2215",24224355);
+		Conta destinatario = new Conta("Jose",113,10000,"2215",2422455);
 		 
 
 		
