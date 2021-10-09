@@ -1,4 +1,4 @@
-package br.com.residencia.banco;
+package br.com.residencia.banco1;
 
 public class Conta {
 	private String nome;
