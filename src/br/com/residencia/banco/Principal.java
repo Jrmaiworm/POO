@@ -9,6 +9,11 @@ public class Principal {
 
 		Conta usuario2 = new Conta("Antonio", 113, 0, "2215", 2422455);
 
+		Contacorrente contaCorrente = new Contacorrente("", 0, 0, "", 0, 0, 0, 0);
+		
+		ContaPoupanca contaPoupanca = new ContaPoupanca(null, 0, 0, null, 0, 0);
+		
+		ContaPoupancaEspecial contaPespecial = new ContaPoupancaEspecial(null, 0, 0, null, 0, 0, 0);
 		usuario1.depositar(2000);
 		usuario1.sacar(0);
 		usuario1.transferir(20, usuario2);
